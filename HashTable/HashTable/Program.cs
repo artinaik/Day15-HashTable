@@ -25,6 +25,7 @@ namespace HashTable
             hash.FindFrequency("because");
             hash.FindFrequency("are");
             hash.FindFrequency("but");
+            hash.Remove(18);
             Console.ReadKey();
         }
     }
